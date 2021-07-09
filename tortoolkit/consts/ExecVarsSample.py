@@ -7,14 +7,14 @@ except:
         
         API_HASH = "b994bccad6118cd6fb6d091b9bbfe5cf"
         API_ID = 1971546
-        BOT_TOKEN = "1883910360:AAHnntAbaWu3vNUAlVzuCJiOo8JIchLWY8w"
+        BOT_TOKEN = "1883910360:AAHkI2cD7GdsVLWL_j9nTQvJOM6EVaXAbGA"
         BASE_URL_OF_BOT = "https://t.me/TorHunter_bot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001269473865]
+        ALD_USR = [-1001432480057]
         OWNER_ID = 1331188677
         
         # Google Drive Index Link should include the base dir also See readme for more info
