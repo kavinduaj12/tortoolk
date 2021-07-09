@@ -5,20 +5,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "b994bccad6118cd6fb6d091b9bbfe5cf"
+        API_ID = 1971546
+        BOT_TOKEN = "1883910360:AAHnntAbaWu3vNUAlVzuCJiOo8JIchLWY8w"
+        BASE_URL_OF_BOT = "https://t.me/TorHunter_bot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001269473865]
+        OWNER_ID = 1331188677
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = "https://torleechdown.lkhitech8.workers.dev/0"
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgresql://postgres:Wjm0rPybNx33fi33Uivg@containers-us-west-1.railway.app:6776/railway"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
