@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "wubot2-dddc"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "wubot2-dddc"
+  template:
+    metadata:
+      labels:
+        app: "wubot2-dddc"
+    spec:
+      containers:
+        - name: "wubot2-dddc"
+          image: "toolkit2.azurecr.io/wubot2"
+          ports:
+          - containerPort: 80
